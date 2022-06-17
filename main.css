@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+#logo{
+    display: block;
+}
+#verge{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 350px;
+}
+#date{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 365px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.dropdown-toggle::after{
+    color: #e2127A;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    width: 85%;
+}
